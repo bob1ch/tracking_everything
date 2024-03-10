@@ -1,9 +1,9 @@
 from pytube import YouTube
 
-VIDEO_SAVE_DIRECTORY = "../videos"
+VIDEO_SAVE_DIRECTORY = "./videos"
 
 def download_video(video_url):
-    video = YouTube('https://www.youtube.com/watch?v=X-ANZ8ba8jU')
+    video = YouTube(video_url)
     video = video.streams.get_highest_resolution()
 
     try:
