@@ -1,5 +1,25 @@
-### Need to write readme lol
+## Project which can track everything on video
 
-project for object tracking
+### Linux startup
 
-parser_engine contain method for downloading videos
+ ```bash
+python -m venv venv
+
+source venv/bin/activate
+
+pip install -r reuirements.txt
+
+python main.py
+```
+
+### Windows startup
+
+ ```powershell
+python -m venv venv
+
+venv\Scripts\activate.bat
+
+pip install -r reuirements.txt
+
+python main.py
+```
