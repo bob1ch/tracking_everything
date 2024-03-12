@@ -1,6 +1,6 @@
 ## Project which can track everything on video
 
-### Linux startup
+### :penguin: Linux startup
 
  ```bash
 python -m venv venv
@@ -12,7 +12,7 @@ pip install -r reuirements.txt
 python main.py
 ```
 
-### Windows startup
+### :computer: Windows startup
 
  ```powershell
 python -m venv venv
@@ -23,3 +23,8 @@ pip install -r reuirements.txt
 
 python main.py
 ```
+
+### :shipit: Current state
+
+* ~~create repo~~
+* downloader module created
