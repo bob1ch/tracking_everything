@@ -28,3 +28,4 @@ python main.py
 
 * ~~create repo~~
 * downloader module created
+* Added API
